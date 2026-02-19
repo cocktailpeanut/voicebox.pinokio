@@ -1,0 +1,8 @@
+{
+  "version": "5.0",
+  "name": "voicebox",
+  "title": "Voicebox",
+  "description": "Local-first voice synthesis studio powered by Qwen3-TTS.",
+  "icon": "icon.png",
+  "platform": "*"
+}

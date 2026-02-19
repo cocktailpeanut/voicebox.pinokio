@@ -1,0 +1,7 @@
+app
+.pinokio
+.agents
+.pinokio-temp
+
+# Logs
+logs/
