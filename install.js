@@ -25,7 +25,8 @@ module.exports = {
         venv: "env",
         message: [
           "uv pip install --upgrade pip",
-          "uv pip install -r requirements.txt"
+          "uv pip install -r requirements.txt",
+          "uv pip install hume-tada --no-deps"
         ]
       }
     },
@@ -36,7 +37,8 @@ module.exports = {
         path: "app/backend",
         venv: "env",
         message: [
-          "uv pip install --prerelease=allow -r requirements-mlx.txt"
+          "uv pip install --prerelease=allow -r requirements-mlx.txt",
+          "uv pip install hume-tada --no-deps"
         ]
       }
     },
